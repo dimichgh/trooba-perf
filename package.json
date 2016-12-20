@@ -1,0 +1,36 @@
+{
+  "name": "trooba-perf",
+  "version": "1.0.0",
+  "description": "performance testing for trooba framework",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "trooba": "^1.0.2",
+    "wreck": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -gc test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimichgh/trooba-perf.git"
+  },
+  "keywords": [
+    "trooba",
+    "pipe",
+    "service",
+    "http",
+    "grpc",
+    "performance",
+    "client"
+  ],
+  "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimichgh/trooba-perf/issues"
+  },
+  "homepage": "https://github.com/dimichgh/trooba-perf#readme"
+}
