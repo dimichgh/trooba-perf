@@ -8,11 +8,14 @@
     "express": "^4.14.0",
     "mocha": "^3.2.0",
     "trooba": "^1.0.2",
-    "wreck": "^10.0.0"
+    "wreck": "^10.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/mocha -gc test"
+    "test": "./node_modules/.bin/mocha -gc test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/dimichgh/trooba-perf/issues"
   },
-  "homepage": "https://github.com/dimichgh/trooba-perf#readme"
+  "homepage": "https://github.com/dimichgh/trooba-perf#readme",
+  "snyk": true
 }
